@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int per;
+	clrscr();
+	printf("Enter The Percentage :");
+	scanf("%d",&per);
+	if(per>=80)
+	printf("grade = A+");
+	getch();
+}
